@@ -12,7 +12,7 @@ import json
 
 #########Load your data here
 #Shapefile
-pedLineShapefile = r""
+pedLineShapefile = r"" #https://github.com/nehrou/walkability/blob/main/Ped%20Line%20Shapefile.zip
 
 #GeoJSON data
 pedLineJson = gpd.read_file(pedLineShapefile)

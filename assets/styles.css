@@ -1,0 +1,58 @@
+/* Inside assets/style.css */
+
+body {
+    background-color: #b7bee5; /* Replace #f0f0f0 with your desired color */
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.column, .columns {
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+/* For a 50/50 split */
+.six.columns {
+    width: 50%;
+}
+
+/* For a 25/25/25/25 split */
+.three.columns {
+    width: 25%;
+    padding-left: 0px;  /* Reduced padding */
+    padding-right: 0px; /* Reduced padding */
+}
+
+
+/* Ensure no extra margins or padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Reduce margin between graph rows if necessary */
+.graph-row {
+    display: flex;
+    flex-wrap: wrap;
+    /* Adjust the margin if you want space between the rows */
+    margin-bottom: 10px;
+}
+
+#map-display .mapboxgl-canvas {
+    height: 80vh; 
+}
+
+.div-user-controls, .row, .graph-row {
+    background-color: #b7bee5; /* This is for the controls and rows, you can change it too */
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}

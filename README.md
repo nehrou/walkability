@@ -19,3 +19,5 @@ Evaluating the Walkability of the Pedestrian Built-Environment using GIS
 # Walkabiltiy Dash Application
 * Create a Dash application that displays the results of the analysis in a dashboard
 ![App Screenshot](https://github.com/nehrou/walkability/assets/68121902/798c2c1c-cd71-4343-9ece-f5c19b8e2d6e)
+
+--Credit UWI Campus GIS Team 2015
